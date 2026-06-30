@@ -1,27 +1,47 @@
-# 📊 Accounts Payable Aging Dashboard
+# Accounts Payable Aging Dashboard
 
-## Overview
+## Project Overview
 
-This project is an interactive Power BI dashboard built to analyze Accounts Payable (AP) performance using a sample dataset of 1,000 invoices.
+This Power BI dashboard analyzes Accounts Payable (AP) performance using a sample dataset of 1,000 invoices.
 
-## Dashboard Preview
-
-> Replace the line below with your screenshot after uploading it.
-
-![Dashboard](dashboard.png)
-
-## Features
+### Features
 
 - KPI Cards
   - Total Invoice Amount
   - Total Paid Amount
   - Outstanding Amount
   - Total Invoices
+
 - Monthly Invoice Trend
+
 - Invoice Aging Analysis
+  - 0–30 Days
+  - 31–60 Days
+  - 61–90 Days
+  - 90+ Days
+
 - Top Vendors by Outstanding Amount
+
 - Outstanding Amount by Department
-- Country, Vendor and Month slicers
+
+- Interactive Slicers
+  - Country
+  - Vendor
+  - Month
+
+## Dashboard Preview
+
+### Main Dashboard
+
+![Dashboard](dashboard%201.png)
+
+### Invoice Aging
+
+![Aging](dashboard%201.2.png)
+
+### Final Dashboard
+
+![Final](dashboard%201.3.png)
 
 ## Tools Used
 
@@ -34,6 +54,7 @@ This project is an interactive Power BI dashboard built to analyze Accounts Paya
 
 - Data Modeling
 - DAX Measures
-- Interactive Dashboard Design
-- Business KPI Reporting
-- Data Visualization
+- Interactive Dashboards
+- KPI Design
+- Business Intelligence
+- Financial Reporting
